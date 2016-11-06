@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Laracasts Autonext",
+	"description": "Allows to automatically jump to the next video in a series",
+	"version": "1.0",
+	"content_scripts": [{
+		"matches": ["https://laracasts.com/series/*"],
+		"js": ["laracasts-autonext.js"],
+		"css": ["laracasts-autonext.css"]
+	}]
+}
